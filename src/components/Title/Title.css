@@ -1,0 +1,61 @@
+.banner-area {
+    position: relative;
+    min-height: 300px;
+    color: #fff;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.banner-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 58px;
+    font-weight: 900;
+}
+
+@media (max-width: 767px) {
+    .banner-title {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-title {
+        font-size: 32px;
+    }
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.banner-heading {
+    text-align: center;
+}
+
+.breadcrumb {
+    padding: 0;
+    background: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.breadcrumb li a,
+.breadcrumb .breadcrumb-item,
+.breadcrumb li a:focus,
+.breadcrumb li a:hover {
+    color: #fff !important;
+}
+
+.breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+}

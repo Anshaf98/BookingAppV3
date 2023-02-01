@@ -1,0 +1,32 @@
+/* .call-to-action {
+    background-color: #272d33;
+    padding: 30px;
+}
+
+.call-to-action-title {
+    color: #fff;
+    margin: 0;
+    padding: 25px 0;
+    line-height: normal;
+    font-size: 22px;
+    text-transform: capitalize;
+} */
+
+
+.call-to-action-box {
+    margin-top: -50px;
+}
+
+.call-to-action-box .action-style-box {
+    background: #EA2027;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.action-title {
+    color: #fff;
+    margin: 0;
+    line-height: 36px;
+    font-size: 18px;
+    text-transform: uppercase;
+}

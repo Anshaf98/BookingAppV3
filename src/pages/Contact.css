@@ -1,0 +1,42 @@
+.map {
+    height: 450px;
+    z-index: 1;
+}
+
+.contact-info-box {
+    margin-top: 20px;
+}
+
+.contact-info-box i {
+    float: left;
+    font-size: 24px;
+    color: #EA2027;
+}
+
+.contact-info-box-content {
+    padding-left: 40px;
+}
+
+.contact-info-box-content h4 {
+    font-size: 16px;
+    margin-top: 0;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.contact-info-box-content p {
+    margin-bottom: 0;
+}
+
+label {
+    font-weight: 400;
+}
+
+.ts-service-box.text-center .ts-service-icon.icon-squre i {
+    float: none;
+    margin-bottom: 20px;
+}
+
+.ts-service-box.text-center .ts-service-box-content {
+    margin: 0;
+}

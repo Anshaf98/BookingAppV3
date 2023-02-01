@@ -1,0 +1,153 @@
+.page-slider {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    transform: translateY(-50%);
+    background-color: transparent;
+    text-shadow: none;
+    transition: all 0.25s ease;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+.page-slider {
+    left: 0;
+}
+
+.page-slider {
+    right: 0;
+}
+
+.c1 {
+    margin-bottom: 150px;
+}
+
+.c2 {
+    margin-bottom: 150px;
+}
+
+
+
+.page-slider i {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    line-height: 70px;
+    width: 40px;
+    height: 70px;
+    font-size: 22px;
+    border-radius: 0;
+    transition: all 500ms ease;
+}
+
+.page-slider .carousel-control i:hover {
+    background: #EA2027;
+    color: #fff;
+}
+
+.page-slider.small-bg .item {
+    min-height: 330px;
+    background-size: cover;
+}
+
+.page-slider.small-bg .box-slider-content {
+    left: 20%;
+}
+
+.page-slider.small-bg .box-slider-text {
+    padding: 5px 20px;
+}
+
+.page-slider.small-bg .box-slide-title {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.page-quote-form {
+    background: #f2f2f2;
+    padding: 30px 50px 50px;
+}
+
+.get-a-quote-img {
+    margin-bottom: -190px;
+}
+
+/*-- Partners carousel --*/
+.partner-logo {
+    border: 1px solid #eee;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.partner-logo img {
+    transition: 350ms;
+    opacity: 0.6;
+    filter: grayscale(100%);
+}
+
+.partner-logo:hover img {
+    opacity: 1;
+    filter: grayscale(0%);
+}
+
+#partners-carousel .partner-logo {
+    border: 0;
+    border-right: 1px solid #eee;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+
+#partners-carousel .partner-logo.last {
+    border-right: 0;
+}
+
+
+.section-title {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.section-sub-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    margin: 0 0 60px;
+    color: #212121;
+}
+
+@media (max-width: 575px) {
+    .section-sub-title {
+        font-size: 28px;
+    }
+}
+
+.ts-service-box-bg {
+    background: #252525;
+    color: #fff;
+    padding: 30px;
+}
+
+.ts-service-box-bg h4,
+.ts-service-box-bg h3 {
+    color: #fff;
+}
+
+.ts-service-icon.icon-round i {
+    font-size: 24px;
+    color: #fff;
+    background: #EA2027;
+    text-align: center;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    float: none;
+}

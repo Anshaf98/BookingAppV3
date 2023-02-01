@@ -1,0 +1,22 @@
+.ts-service-box .ts-service-box-info {
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+
+.service-box-title {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.service-box-title a {
+    color: #333;
+}
+
+.service-box-title a:hover {
+    color: #EA2027;
+}
+
+.ts-service-box-img i {
+    font-size: 30px;
+    color: #EA2027;
+}

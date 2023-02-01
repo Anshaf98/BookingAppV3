@@ -1,0 +1,44 @@
+.quote-item .quote-text {
+    margin: 0 0 10px;
+    display: inline-block;
+    padding: 0 40px 30px 60px;
+    background-color: #fff;
+    position: relative;
+    font-size: 12px;
+    font-style: italic;
+}
+
+@media (max-width: 575px) {
+    .quote-item .quote-text {
+        padding: 0 40px 30px 50px;
+    }
+}
+
+
+img.testimonial-thumb {
+    max-width: 80px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.quote-item-info {
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.quote-item-footer {
+    margin-top: 0;
+    margin-left: 60px;
+}
+
+@media (max-width: 575px) {
+    .quote-item-footer {
+        margin-left: 0;
+    }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #EA2027;
+}
